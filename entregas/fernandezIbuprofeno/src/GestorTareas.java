@@ -8,8 +8,9 @@ public class GestorTareas {
         int numeroDeTareas = 0;
 
         System.out.println("Gestor de Tareas v1.0");
+        boolean enFuncionamiento = true;
 
-        while (true) {
+        do {
             System.out.println("[1] Anadir tarea");
             System.out.println("[2] Marcar tarea como completada");
             System.out.println("[3] Ver tareas pendientes");
@@ -33,7 +34,8 @@ public class GestorTareas {
             } else if (opcion == 2) {
                 System.out.println("Tareas para Marcar");
                 for (int tarea = 0; tarea < numeroDeTareas; tarea++) {
-                    System.out.println((tarea + 1) + ". " + tareas[tarea] + " [" + (tareasCompletadas[tarea] ? "Completada" : "Pendiente") + "]");
+                    System.out.println((tarea + 1) + ". " + tareas[tarea] + " ["
+                            + (tareasCompletadas[tarea] ? "Completada" : "Pendiente") + "]");
                 }
                 if (numeroDeTareas > 0) {
                     System.out.print("Numero de tarea a marcar como completada: ");
@@ -80,11 +82,11 @@ public class GestorTareas {
                 }
             } else if (opcion == 5) {
                 System.out.println("Saliendo del gestor de tareas.");
-                break;
+                enFuncionamiento = false;
             } else {
                 System.out.println("Opcion no valida. Intente de nuevo.");
             }
-        }
+        } while (enFuncionamiento);
         scanner.close();
     }
 }
