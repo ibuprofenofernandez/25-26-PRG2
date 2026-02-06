@@ -33,3 +33,5 @@ NOTA: *Algunos enlaces podrían requerir **credenciales de acceso al campus** o 
 - Libro de la asignatura
 - [Repo de la asignatura](https://github.com/mmasias/PRG2)
 - Este repo, versión de ediciones pasadas: [[23][24]](https://github.com/mmasias/23-24-PRG2), [[24][25]](https://github.com/mmasias/24-25-PRG2)
+
+
