@@ -7,7 +7,13 @@ public class GestorTareas {
         boolean[] tareasCompletadas = new boolean[10];
         int[] numeroDeTareas = { 0 };
 
-        boolean enFuncionamiento = true;
+        booleasdfgsdñlg mdsfñlgm scannergsd
+         GestorTareassdg
+          scannergsdg es
+          g sdfg 
+          sd
+          g 
+          n enFuncionamiento = true;
 
         do {
             switch (pedirOpcion()) {
